@@ -58,9 +58,9 @@ function HomePage() {
 		}
 	};
 
-	useEffect(() => {
-		console.log("recentlyUpload", recentlyUpload?.image);
-	}, [recentlyUpload]);
+	// useEffect(() => {
+	// 	console.log("recentlyUpload", recentlyUpload?.image);
+	// }, [recentlyUpload]);
   return (
 		<div className='container'>
 			<form onSubmit={handleUpload}>
